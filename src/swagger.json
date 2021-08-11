@@ -72,6 +72,21 @@
           }
         }
       }
+    },
+    "/speifications": {
+      "tags": ["Specifications"],
+      "summary": "Create a specification",
+      "description": "Create a new specification",
+      "requestBody": {
+        "content": {
+          "application/json": {
+            "schema": {
+              "#ref": "#/definitions/Specification"
+            }
+          }
+        }
+      }
     }
-  } 
+  },
+  "definitions": {}
 }
